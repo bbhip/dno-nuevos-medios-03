@@ -29,12 +29,9 @@ body {
 }
 
 a {
-    color: #555;
+    color: white;
     text-decoration: none;
-}
-
-a:hover {
-    color: #111;
+    font-size:15px;
 }
 
 header {
@@ -128,7 +125,13 @@ footer {
 }
 
 #galerialink {
-    background: rgb(244, 237, 220);
-    margin-bottom:20px;
+    background: rgba(50, 186, 166, 0.6);
+    padding:10px 15px;
+    border-radius:20px;
+    margin-bottom:40px;
     align-self: center;
 } 
+
+#galerialink:hover {
+    background-color: rgba(50, 186, 166, 1);
+}
