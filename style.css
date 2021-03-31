@@ -118,7 +118,7 @@ main {
 }
 
 footer {
-    background: rgb(244, 237, 220);
+    background: transparent;
     position: absolute;
     bottom: 0;
     align-items: center;
