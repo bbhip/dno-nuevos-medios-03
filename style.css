@@ -118,10 +118,8 @@ main {
 }
 
 footer {
-    background: transparent;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
+	position: absolute;
+	bottom:0;
 }
 
 #galerialink {
@@ -130,8 +128,39 @@ footer {
     border-radius:20px;
     margin-bottom:40px;
     align-self: center;
+    align-items: center;
 } 
 
 #galerialink:hover {
     background-color: rgba(50, 186, 166, 1);
+}
+
+#dibujapplink {
+    background: rgba(50, 186, 166, 0.6);
+    padding:10px 15px;
+    border-radius:20px;
+    align-self: center;
+    align-items: center;
+} 
+
+#dibujapplink:hover {
+    background-color: rgba(50, 186, 166, 1);
+}
+
+#container {
+	margin-top:120px;
+}
+
+img {
+	display: flex;
+	margin-left:auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+	height:250px;
+	border:4px solid rgb(50,186,166);
+}
+
+figcaption {
+	text-align:center;
+	margin-bottom:30px;
 }
