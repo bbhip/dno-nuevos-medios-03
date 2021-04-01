@@ -23,9 +23,6 @@
 body {
     line-height: 1.38;
     background:rgb(244, 237, 220);
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 a {
@@ -94,6 +91,7 @@ main button {
     right: 1.75rem;
     width: 7rem;
     height: 7rem;
+    line height:1.25;
     border-radius: 50% 50%;
     border: 1px solid rgba(255, 81, 92, 0.05);
     background-color: rgba(50, 186, 166, 0.6);
@@ -112,17 +110,19 @@ main button:hover {
     cursor: pointer;
 }
 
-main {
-    height: 100vh;
-    width: 100vw;
+footer {
+	display:flex;
+    justify-content: center;
 }
 
-footer {
-	position: absolute;
-	bottom:0;
+main #inicio{
+    height: 100%;
+    width: 100%;
 }
 
 #galerialink {
+    position: absolute;
+    bottom:0.01rem;
     background: rgba(50, 186, 166, 0.6);
     padding:10px 15px;
     border-radius:20px;
@@ -141,6 +141,7 @@ footer {
     border-radius:20px;
     align-self: center;
     align-items: center;
+    margin-bottom: 40px;
 } 
 
 #dibujapplink:hover {
